@@ -1,0 +1,40 @@
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Virtual Machine Files
+*.vdi
+*.vmdk
+*.vbox
+*.vbox-prev
+*.vbox-tmp
+*.vbox-extpack
+
+# Splunk
+splunkforwarder/var/log/*
+splunk/var/log/*
+
+# Credentials
+.env
+*.key
+*.pem
+*.crt
+*.pfx
+
+# Python
+__pycache__/
+*.pyc
+
+# Miscellaneous
+*.bak
+*.swp
