@@ -1,7 +1,7 @@
 # Home Security Operations Center (Home SOC Lab)
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
-![Progress](https://img.shields.io/badge/Progress-2%2F36-orange)
+![Progress](https://img.shields.io/badge/Progress-3%2F36-orange)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2011-blue)
 ![SIEM](https://img.shields.io/badge/SIEM-Splunk-black)
 ![Telemetry](https://img.shields.io/badge/Telemetry-Sysmon-success)
