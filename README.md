@@ -1,7 +1,7 @@
 # Home Security Operations Center (Home SOC Lab)
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
-![Progress](https://img.shields.io/badge/Progress-5%2F36-orange)
+![Progress](https://img.shields.io/badge/Progress-6%2F36-orange)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2011-blue)
 ![SIEM](https://img.shields.io/badge/SIEM-Splunk-black)
 ![Telemetry](https://img.shields.io/badge/Telemetry-Sysmon-success)
@@ -28,6 +28,14 @@ The finished project is intended to demonstrate the practical skills expected of
 ![Home SOC Architecture](diagrams/soc-architecture.png)
 
 The architecture illustrates the flow of authorized attack traffic, endpoint telemetry collection, log forwarding to Splunk Enterprise, and analyst investigation from the Ubuntu SOC workstation.
+
+---
+
+## Network Architecture
+
+![Home SOC Network Design](diagrams/network/network-design.png)
+
+The network design uses an isolated VirtualBox Host-Only network for controlled communication between lab systems, with optional NAT connectivity used only when Internet access is required.
 
 ---
 

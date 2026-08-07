@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="HLeagHwLc1coSquvFkig">
+    <mxGraphModel dx="2904" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o-6qYQhfDT30LHGd-GhK-14" edge="1" parent="1" source="o-6qYQhfDT30LHGd-GhK-1" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="o-6qYQhfDT30LHGd-GhK-12" value="Optional Adapter 2 — NAT (Updates Only)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="330" />
+              <mxPoint x="425" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-6qYQhfDT30LHGd-GhK-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="VirtualBox Host-Only Network — 192.168.56.0/24" vertex="1">
+          <mxGeometry height="300" width="730" x="-150" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="o-6qYQhfDT30LHGd-GhK-5" edge="1" parent="1" source="o-6qYQhfDT30LHGd-GhK-2" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o-6qYQhfDT30LHGd-GhK-3" value="Authorized Attack Traffic">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-6qYQhfDT30LHGd-GhK-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kali Linux VM 192.168.56.20" vertex="1">
+          <mxGeometry height="60" width="120" x="-102.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="o-6qYQhfDT30LHGd-GhK-7" edge="1" parent="1" source="o-6qYQhfDT30LHGd-GhK-3" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="o-6qYQhfDT30LHGd-GhK-6" value="Log Forwarding">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-6qYQhfDT30LHGd-GhK-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Windows 11 VM192.168.56.10" vertex="1">
+          <mxGeometry height="60" width="120" x="172.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="o-6qYQhfDT30LHGd-GhK-9" edge="1" parent="1" source="o-6qYQhfDT30LHGd-GhK-4" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="o-6qYQhfDT30LHGd-GhK-6" value="Analyst Access">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-6qYQhfDT30LHGd-GhK-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Ubuntu SOC VM192.168.56.30" vertex="1">
+          <mxGeometry height="60" width="120" x="412.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="o-6qYQhfDT30LHGd-GhK-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&#xa;Splunk Enterprise&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="172.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="o-6qYQhfDT30LHGd-GhK-11" edge="1" parent="1" source="o-6qYQhfDT30LHGd-GhK-10" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="o-6qYQhfDT30LHGd-GhK-1" value="Host-Only Interface">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-6qYQhfDT30LHGd-GhK-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&#xa;&lt;strong data-start=&quot;223&quot; data-end=&quot;242&quot;&gt;Windows 11 Host&lt;/strong&gt;&lt;br data-start=&quot;242&quot; data-end=&quot;245&quot;&gt;&#xa;&lt;strong data-start=&quot;245&quot; data-end=&quot;261&quot;&gt;192.168.56.1&lt;/strong&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="155" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="o-6qYQhfDT30LHGd-GhK-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&#xa;Internet&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
