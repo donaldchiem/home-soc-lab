@@ -1,7 +1,7 @@
 # Home Security Operations Center (Home SOC Lab)
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
-![Progress](https://img.shields.io/badge/Progress-4%2F36-orange)
+![Progress](https://img.shields.io/badge/Progress-5%2F36-orange)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2011-blue)
 ![SIEM](https://img.shields.io/badge/SIEM-Splunk-black)
 ![Telemetry](https://img.shields.io/badge/Telemetry-Sysmon-success)
@@ -20,6 +20,14 @@ The objective is to simulate the responsibilities of a Security Operations Cente
 Rather than serving as a collection of disconnected exercises, this repository follows the complete lifecycle of designing, building, validating, operating, and continuously improving a defensive security monitoring environment.
 
 The finished project is intended to demonstrate the practical skills expected of an entry-level SOC Analyst, Blue Team Analyst, Cybersecurity Analyst, Security Operations Intern, or Junior Detection Engineer.
+
+---
+
+## SOC Architecture
+
+![Home SOC Architecture](diagrams/soc-architecture.png)
+
+The architecture illustrates the flow of authorized attack traffic, endpoint telemetry collection, log forwarding to Splunk Enterprise, and analyst investigation from the Ubuntu SOC workstation.
 
 ---
 
